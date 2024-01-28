@@ -71,3 +71,37 @@ line-height: 16px;
   height: 40px;
   width: 40px;
 }
+
+/* nav bar */
+
+.navSection {
+  display:flex;
+  height: 74px;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.navButtons {
+  border: none;
+  background-color: #fff;
+  margin: 12px 0 10px;
+  padding: 4px 0;
+}
+
+.navIcons {
+  height: 24px;
+  width: 24px;
+  opacity: 0.7;
+  
+}
+
+.navButtons p {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #717171;
+}
+
