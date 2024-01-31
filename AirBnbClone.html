@@ -21,14 +21,17 @@
                             </path>
                         </svg>
                     </div>
-                        <div class="searchButtonTextTop">Anywhere</div>
+                        <span class="searchTextContainer">
+                            <div class="searchTextTop">Anywhere
+                            </div>
                             <span class="searchButtonText">
-                                <div class="searchButtonBottomTextContainer">
-                                    <span class="searchButtonTextBottom">Any week</span>
-                                    <span class="ssearchButtonTextBottom">•</span>
-                                    <span class="searchButtonTextBottom">Add guests</span>
+                                <div class="searchBottomTextContainer">
+                                    <span class="searchTextBottom">Any week</span>
+                                    <span class="ssearchTextBottom">•</span>
+                                    <span class="searchTextBottom">Add guests</span>
                                 </div>
                             </span>
+                        </span>
                 </button>
             </div>
             <div class="filterWrapper">
@@ -44,34 +47,67 @@
         </div>
     </div>
 <!---nav bar--> 
-    <div class="navSection">
+    <div class="navBar">
         <div class="navButtonWrapper">
             <button class="navButtons">
-                <img class="navIcons" src="/SourceCode/a0.muscache.com/pictures/Cabins.jpg"><p>Cabin</p>
+                <img class="navIcons" src="/SourceCode/a0.muscache.com/pictures/Cabins.jpg" width="24" height="24">
+                <div>
+                    <span class="navText">Cabin</span>
+                </div>
             </button>
         </div>
         <div class="navButtonWrapper">
             <button class="navButtons">
-                <img class="navIcons" src="/SourceCode/a0.muscache.com/pictures/OMG.jpg"><p>OMG!</p>
+                <img class="navIcons" src="/SourceCode/a0.muscache.com/pictures/OMG.jpg " width="24" height="24">
+                <div>
+                    <span class="navText">OMG!</span>
+                </div>
             </button>
         </div>
         <div class="navButtonWrapper">
             <button class="navButtons">
-                <img class="navIcons" src="SourceCode/a0.muscache.com/pictures/AmazingViews.jpg"><p>Amazing views</p>
+                <span>
+                    <img class="navIcons" src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" 
+                     alt="" width="24" height="24">
+                </span>
+                <div>
+                    <span class="navText">Amazing views</span>
+                </div>
             </button>
         </div>
         <div class="navButtonWrapper">
             <button class="navButtons">
-                <img class="navIcons" src="SourceCode/a0.muscache.com/pictures/AmazingPools.jpg"><p>Amazing pools</p>
+                <span></span>
+                <img class="navIcons" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" width="24" height="24">
+                <div>
+                    <span class="navText">Amazing pools</span>
+                </div>
+            </button>
+        </div>
+        <div class="navButtonWrapper">
+            <button class="navButtons">
+                <span></span>
+                <img class="navIcons" src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg" alt="" width="24" height="24">
+                <div>
+                    <span class="navText">Islands</span>
+                </div>
             </button>
         </div>
     </div>
 <!-- main content -->
-<div id="mainSection">
+<div class="mainSection">
     <div class="mainContainer">
         <div class="mainWrapper">
-            <div class="mainContentImageWrapper">
-                <img class="mainContentImage" src="/SourceCode/a0.muscache.com/im/pictures/Northamptonshire.jpg">
+            <picture class="mainContentImageWrapper">
+                <img class="mainContentImage" 
+                style="--dls-liteimage-object-fit: cover;" 
+                aria-hidden="true" 
+                elementtiming="LCP-target" 
+                fetchpriority="high" 
+                loading="eager" 
+                src="https://a0.muscache.com/im/pictures/miso/Hosting-879483251214961395/original/73058fe3-48dd-49d9-9ac4-0613715e2387.jpeg?im_w=720" 
+                data-original-uri="https://a0.muscache.com/im/pictures/miso/Hosting-879483251214961395/original/73058fe3-48dd-49d9-9ac4-0613715e2387.jpeg?im_w=720">
+            </picture>
             </div>
             <div class="content-info">
                 <span class="ads-title">Northamptonshire</span>
@@ -79,19 +115,20 @@
                 <span class="content-description">4-9th Feb</span>
                 <span class="ads-price">£441 total</span>
             </div>
-        </div>
+    </div>
     </div>
 </div>
 <!-- footer section -->
-<div id="footerSection">
-    <div class="footHeaderContainer">
-        <div class="footerHeader">
-            <span class="_1q2ss4r" style="--tl-color: #222222; --tl-font-size: 0.875rem; --tl-font-weight: 600; --tl-line-height: 1.125rem;">
-            Learn about Guest Favourites
-            </span>
+<div class="footTextContainer">
+        <div class="footerTextWrapper">
+            <div class="footerTextBox">
+                <span class="footerText" style="--tl-color: #222222; --tl-font-size: 0.875rem; --tl-font-weight: 600; --tl-line-height: 1.125rem;">
+                Learn about Guest Favourites
+                </span>
+            </div>
         </div>
-    </div>
-    <div class="footerContainer">
+</div>
+<div class="footerContainer">
         <div class="footerWrapper">
             <div class="footer-buttonWrapper">
                 <button class="footerButton">
@@ -104,7 +141,7 @@
                             </g>
                         </svg>
                         <p>Explore</p>
-                </button>
+                    </button>
             </div>
             <div class="footer-buttonWrapper">
                 <button class="footerButton">
@@ -134,6 +171,6 @@
                 </button>
             </div>
         </div>
-    </div>
+</div>
 </body>
 </html>
